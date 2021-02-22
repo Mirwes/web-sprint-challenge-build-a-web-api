@@ -16,7 +16,6 @@ router.get('/', (req, res) => {
     });
   });
 
-
   router.post('/', (req, res) => {
     const {project_id, description, notes} = req.body;
 
